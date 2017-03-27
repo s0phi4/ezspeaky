@@ -1,0 +1,13 @@
+<h3>Comment</h3>
+
+<form id="NewComment">
+    <p>
+      {{input value=newComment.title placeholder="Title"}}
+    </p>
+    <p>
+      {{textarea value=newComment.content placeholder="Content" rows="10" cols="140"}}
+    </p>
+    <p>
+        <button {{action "createComment"}}>Create</button>
+    </p>
+</form>
