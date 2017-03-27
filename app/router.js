@@ -12,6 +12,7 @@ Router.map(function () {
   this.route('users');
   this.route('speaky-missions');
   this.route('speech-emission');
+  this.route('articulation');
 });
 
 export default Router;
