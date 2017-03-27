@@ -1,0 +1,6 @@
+{{#unless isAuthenticated}}
+  <h1>EzSpeaky!</h1>
+{{else}}
+  <h1>Instructions</h1>
+  {{#link-to 'speaky-missions'}}Start My Speaky Mission{{/link-to}}!
+{{/unless}}
