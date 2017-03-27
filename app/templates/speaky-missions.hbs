@@ -1,5 +1,12 @@
 <h2>Speaky Missions</h2>
-
 <ul>
-<li>{{#link-to 'speech-emission'}}Speech Emission{{/link-to}}</li>
+{{#each model as |therapy|}}
+<li>{{therapy.name}}</li>
+{{/each}}
 </ul>
+
+{{!-- <ul>
+<li>{{#link-to 'speech-emission'}}Speech Emission{{/link-to}}</li>
+<li>{{#link-to 'articulation'}}Articulation{{/link-to}}</li>
+
+</ul> --}}
