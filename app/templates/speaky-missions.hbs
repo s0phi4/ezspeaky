@@ -1,7 +1,16 @@
 <h2>Speaky Missions</h2>
+
 <ul>
 {{#each model as |therapy|}}
-<li>{{therapy.name}}</li>
+{{#if (first-therapy therapy.name)}}
+<li>{{#link-to 'speech-emission'}}{{therapy.name}}{{/link-to}}</li>
+{{else}}
+{{#if (second-therapy therapy.name)}}
+<li>{{#link-to 'articulation'}}{{therapy.name}}{{/link-to}}</li>
+{{!-- {{else}} --}}
+{{!-- <li>{{#link-to 'sound-recognition'}}{{therapy.name}}{{/link-to}}</li> --}}
+{{/if}}
+{{/if}}
 {{/each}}
 </ul>
 
