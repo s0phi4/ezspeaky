@@ -13,6 +13,7 @@ Router.map(function () {
   this.route('speaky-missions');
   this.route('speech-emission');
   this.route('articulation');
+  this.route('sound-recognition');
 });
 
 export default Router;
