@@ -1,1 +1,9 @@
-{{outlet}}
+<h1>Sound Recognition</h1>
+<p>Compensatory productions are easiest to correct AFTER surgical correction. Once surgery is done to correct the abnormal structure, speech therapy is
+necessary to correct the abnormal function.</p>
+<ul>
+{{#each model as |sound-recognition|}}
+  <li>{{sound-recognition}}</li>
+{{/each}}
+</ul>
+{{#create-comment newComment=model createComment="createComment"}}{{/create-comment}}

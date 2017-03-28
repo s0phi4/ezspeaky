@@ -7,15 +7,9 @@
 {{else}}
 {{#if (second-therapy therapy.name)}}
 <li>{{#link-to 'articulation'}}{{therapy.name}}{{/link-to}}</li>
-{{!-- {{else}} --}}
-{{!-- <li>{{#link-to 'sound-recognition'}}{{therapy.name}}{{/link-to}}</li> --}}
+{{else}}
+<li>{{#link-to 'sound-recognition'}}{{therapy.name}}{{/link-to}}</li>
 {{/if}}
 {{/if}}
 {{/each}}
 </ul>
-
-{{!-- <ul>
-<li>{{#link-to 'speech-emission'}}Speech Emission{{/link-to}}</li>
-<li>{{#link-to 'articulation'}}Articulation{{/link-to}}</li>
-
-</ul> --}}
