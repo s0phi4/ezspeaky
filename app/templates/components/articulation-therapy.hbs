@@ -1,8 +1,11 @@
 <h1>Articulation</h1>
 <p>Compensatory productions are easiest to correct AFTER surgical correction. Once surgery is done to correct the abnormal structure, speech therapy is
 necessary to correct the abnormal function.</p>
+
 <ul>
-{{#each model as |articulation|}}
-  <li>{{articulation}}</li>
+{{#each therapy.videos as |links|}}
+  <li>{{links.name}}<br>
+  <a href={{links.url}}>{{links.url}}</a><br>
+</li>
 {{/each}}
 </ul>

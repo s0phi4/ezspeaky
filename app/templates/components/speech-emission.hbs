@@ -5,3 +5,12 @@
   <li>Simulate oral and nasal speech and have the child identify normal versus abnormal.</li>
 </ol>
 <p>Use the videos below to guide proper speech emissions and use the comment box to record your progress.</p>
+
+{{#each therapy.videos as |links|}}
+  {{links.name}}<br>
+  <a href={{links.url}}>{{links.url}}</a><br>
+
+{{/each}}
+
+
+{{#create-comments newComment=model createComment="createComment"}}{{/create-comments}}
