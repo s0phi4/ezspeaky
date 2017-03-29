@@ -10,6 +10,9 @@ Router.map(function () {
   this.route('sign-in');
   this.route('change-password');
   this.route('users');
+  this.route('therapies', function() {
+    this.route('therapy', {path: '/:therapy_id'});
+  });
 });
 
 export default Router;

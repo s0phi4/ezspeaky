@@ -1,0 +1,7 @@
+<h1 class="titles">Speaky Missions</h1>
+<ul>
+  {{#each model as |therapy|}}
+<li>{{#link-to 'therapies.therapy' therapy}}{{therapy.name}}
+{{/link-to}}</li>
+{{/each}}
+</ul>

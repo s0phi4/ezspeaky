@@ -1,0 +1,10 @@
+
+{{#if (first-therapy model.name)}}
+{{speech-emission}}
+{{else}}
+{{#if (second-therapy model.name)}}
+{{articulation-therapy}}
+{{else}}
+{{sound-recognition}}
+{{/if}}
+{{/if}}
