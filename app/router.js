@@ -10,8 +10,11 @@ Router.map(function () {
   this.route('sign-in');
   this.route('change-password');
   this.route('users');
-  this.route('therapies', function() {
-    this.route('therapy', {path: '/:therapy_id'});
+  this.route('therapies', function () {
+    this.route('index', { path: '/' });
+    this.route('therapy', { path: ':therapy_id' }, function () {
+      this.route('comment-new', { path: 'comments/new' });
+    });
   });
 });
 

@@ -1,7 +1,12 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  // model(params) {
-  //   return this.get('store').findRecord('therapy', params.therapy_id);
-  // }
+  model (params) {
+    return this.get('store').findRecord('therapy', params.therapy_id);
+  },
+  actions: {
+    newComment () {
+      this.transitionTo('therapies.therapy.comment-new');
+    },
+  }
 });
