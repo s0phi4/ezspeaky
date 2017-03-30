@@ -10,6 +10,6 @@
   {{/each}}
 </ul>
 
-<button class="btn btn-primary" {{action 'newComment'}}>Add Comment</button>
+{{#link-to 'therapies.therapy.comment-new' model}}<button class="btn btn-primary">Add Comment</button>{{/link-to}}
 
 {{outlet}}
