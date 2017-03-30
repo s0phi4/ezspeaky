@@ -1,16 +1,20 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  newComment:{
+    title: '',
+    content: '',
+  },
   actions: {
-    submit(comment) {
-      console.warn('comment is', comment);
-      console.warn('therapy is', this.get('therapy'))
-
-      Ember.set(comment, 'title', this.get('title'));
-      Ember.set(comment, 'content', this.get('content'));
-      Ember.set(comment, 'therapy', this.get('therapy'));
-
-      console.warn('comment is', comment);
+    submit() {
+      let data = this.get('newComment');
+      data.therapy = this.get('therapy');
+      this.sendAction('submit', data);
+      this.set('newComment.title', '');
+      this.set('newComment.content', '');
+      // Ember.set(comment, 'title', this.get('title'));
+      // Ember.set(comment, 'content', this.get('content'));
+      // Ember.set(comment, 'therapy', this.get('therapy'));
 
       // this.sendAction('create', comment);
     },

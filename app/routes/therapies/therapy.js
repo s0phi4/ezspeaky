@@ -5,8 +5,9 @@ export default Ember.Route.extend({
     return this.get('store').findRecord('therapy', params.therapy_id);
   },
   actions: {
-    newComment () {
-      this.transitionTo('therapies.therapy.comment-new');
+    newComment (comment) {
+      comment.save()
+      .then(() =>this.transitionTo('therapies.therapy.comment-new'));
     },
   }
 });
