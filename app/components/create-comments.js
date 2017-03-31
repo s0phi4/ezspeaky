@@ -5,6 +5,12 @@ export default Ember.Component.extend({
     title: '',
     content: '',
   },
+  init() {
+      this._super(...arguments);
+      this.set('newComment', {});
+    },
+
+
   actions: {
     submit() {
       let data = this.get('newComment');
