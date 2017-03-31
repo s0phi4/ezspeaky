@@ -50,6 +50,12 @@ Most of the app is content provided and the user is only given the opportunity t
 
 EzSpeaky will have a better look and it will include options for the user to delete comments.
 I would really like to create the therapies myself with like games or some sort of card interaction, to make it more interactive for kids and their parents.
+The look of EzSpeaky will be like this
+
+- [EzSpeaky Improved Version](http://i.imgur.com/qjw7iwd.jpg)
+- Add color
+- Add different backgrounds to each view state
+
 
 ## Major hurdles
 
