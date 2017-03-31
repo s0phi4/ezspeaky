@@ -25,6 +25,7 @@ Parents have access to a comment box in each therapy type to record the progress
 
 -   [EzSpeaky Deployed App](https://yenpraja610.github.io/ezspeaky/)
 -   [EzSpeaky-API Repo](https://github.com/yenpraja610/ezspeaky-api)
+-  [Deployed API](https://ezspeaky.herokuapp.com/)
 -   [EzSpeaky WireFrame](http://i.imgur.com/qjw7iwd.jpg)
 
 ## User Stories
