@@ -1,2 +1,43 @@
 @import 'bootstrap';
 @import 'bootstrap/theme';
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+
+body {
+  background-image: url('/assets/images/ezspeaky_family.jpg');
+  background-repeat: no-repeat;
+  background-size: 1438px 850px;
+}
+
+.first-view {
+  color: #FFFFFF;
+  font-family: 'Fredoka One', cursive;
+  font-size: 80px;
+  margin-left: -150px;
+  margin-top: 150px;
+  text-align: left;
+}
+
+.instructions-therapies {
+  margin-left: -170px;
+}
+
+.second-view {
+  color: #ffffff;
+  font-family: 'Fredoka One', cursive;
+  font-size: 50px;
+}
+
+.instruct-p {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+}
+
+.link-therapies {
+  margin-top: 20px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 35px;
+}
+
+//fbe270

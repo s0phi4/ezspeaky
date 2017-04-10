@@ -1,16 +1,19 @@
 {{#unless isAuthenticated}}
-  <h1>EzSpeaky!</h1>
+  <h1 class="first-view">EzSpeaky!</h1>
 {{else}}
-  <h1>Encourage your kid to EZSpeaky!</h1>
+<div class='instructions-therapies'>
+  <h1 class='second-view'>Encourage your kid to EzSpeaky!</h1>
   <br>
-  <p>Cleft lip and cleft palate can cause obstacles to a proper speech. But here is a
-    path to develop good speech habits as well as to learn how to produce sounds correctly.</p>
+  <p class='instruct-p'>Cleft lip and cleft palate can cause obstacles to a proper speech; however, with the proper<br> therapy; good communication patterns can be developed.
+    <br> EzSpeaky is a growing site where you will find resources and inspiration <br> to break proper speech obstacles.
+    </p>
     <br>
-    <p>This guide is divided in three different missions, follow the below directions and have a happy EzSpeaky!</p>
-    <ul>
-      <li>Click on each of the therapies to access videos that will guide you through exercises, and activities.</li>
-      <li>Use the comment box to record progress or things to look at in the next practice.</li>
+    <p class='instruct-p'>This guide is divided in three different missions, follow<br> the below directions and have a happy EzSpeaky!</p>
+    <ul class ='instruct-p'>
+      <li>Click on each of the therapies to access videos<br> that will guide you through exercises.</li>
+      <li>Use the comment box to record progress or things<br> to look at in the next practice.</li>
       <li>Enjoy and make it enjoyable for your kid!</li>
     </ul>
-  <h2>{{#link-to 'therapies'}}Start My Speaky Missions!{{/link-to}}</h2>
+  <h2 class='link-therapies'>{{#link-to 'therapies'}}Start My Speaky Missions!{{/link-to}}</h2>
+</div>
 {{/unless}}
