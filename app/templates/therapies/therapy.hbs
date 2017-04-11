@@ -1,21 +1,22 @@
-<h1>{{model.title}}</h1>
-<p>{{model.content}}</p>
+<h1 class='titles'>{{model.title}}</h1>
+<div class='content-therapy'>
+<p class='definition-therapy'>{{model.content}}</p>
 
-<ul>
+<ul class='video-therapy'>
   {{#each model.videos as |video|}}
     <li>
-      {{video.name}}
+      {{video.name}}<br>
       <a href= {{video.url}}>{{video.url}}</a>
     </li>
   {{/each}}
 </ul>
-<ol>
+<ul>
   {{#each model.comments as |comment|}}
-    <li>  <h3>{{comment.title}}</h3>
-      <p>{{comment.content}}</p></li>
+    <li>  <h3 class='comment-title'>{{comment.title}}</h3>
+      <p class='comment-content'>{{comment.content}}</p></li>
   {{/each}}
-</ol>
+</ul>
 
 {{#link-to 'therapies.therapy.comment-new' model}}<button class="btn btn-primary">Add Comment</button>{{/link-to}}
-
+</div>
 {{outlet}}

@@ -1,5 +1,6 @@
+<div class = 'therapies-missions'>
 <h1 class="titles">Speaky Missions</h1>
-<ul>
+<ul id='therapy-list'>
   {{#each model.therapies as |therapy|}}
     <li>
       {{#link-to 'therapies.therapy' therapy}}{{therapy.title}}
@@ -7,3 +8,4 @@
     </li>
   {{/each}}
 </ul>
+</div>

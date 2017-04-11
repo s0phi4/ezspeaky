@@ -1,0 +1,26 @@
+@import 'bootstrap';
+@import 'bootstrap/theme';
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+// .therapies-missions {
+//   background-image: url('assets/images/ezSpeaky_therap_background.jpg');
+//   background-repeat: no-repeat;
+//   background-size: 1438px 850px;
+// }
+
+.titles {
+  color: #FFFFFF;
+  font-family: 'Fredoka One', cursive;
+  font-size: 60px;
+  margin-left: -150px;
+  margin-top: 30px;
+}
+
+#therapy-list li {
+  display: run-in;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 35px;
+  margin-left: -100px;
+  margin-top: 30px;
+}

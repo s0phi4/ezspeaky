@@ -1,0 +1,35 @@
+@import 'bootstrap';
+@import 'bootstrap/theme';
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+// .therapies-missions {
+//   background-image: url('assets/images/ezSpeaky_therap_background.jpg');
+//   background-repeat: no-repeat;
+//   background-size: 1438px 850px;
+// }
+.content-therapy {
+  margin-left: -150px;
+  margin-top: 30px;
+}
+
+.definition-therapy {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
+
+.video-therapy {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.comment-title {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+}
+
+.comment-content {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 14px;
+}
