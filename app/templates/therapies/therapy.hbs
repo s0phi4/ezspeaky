@@ -17,7 +17,7 @@
         <h3 class='comment-title'>{{comment.title}}</h3>
         <p class='comment-content'>{{comment.content}}</p>
       {{!-- </li> --}}
-      <button class="btn btn-danger delete-comment" {{action 'delete'}}>Delete</button>
+      <button class="btn btn-danger delete-comment" {{action 'delete' comment}}>Delete</button>
     </div>
     {{/each}}
   {{!-- </ul> --}}
