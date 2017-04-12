@@ -3,33 +3,60 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
-// .therapies-missions {
-//   background-image: url('assets/images/ezSpeaky_therap_background.jpg');
-//   background-repeat: no-repeat;
-//   background-size: 1438px 850px;
-// }
+.title-therapy {
+  color: #FFFFFF;
+  font-family: 'Fredoka One', cursive;
+  font-size: 40px;
+  margin-left: -180px;
+  margin-top: 20px;
+}
+
 .content-therapy {
-  margin-left: -150px;
+  margin-left: -180px;
+  margin-right: -250px;
   margin-top: 30px;
 }
 
 .definition-therapy {
   font-family: 'Varela Round', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .video-therapy {
   font-family: 'Varela Round', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   margin-top: 20px;
 }
 
+.comment-box {
+  background-color: #fbe270;
+  border: 1px solid #fbe270;
+  border-radius: 25px;
+  display: inline-block;
+  filter: alpha(opacity = 60);
+  height: 120px;
+  margin: 30px 20px;
+  opacity: .6;
+  overflow-y: scroll;
+  width: 280px;
+}
+
 .comment-title {
+  color: black;
   font-family: 'Varela Round', sans-serif;
   font-size: 16px;
+  font-weight: bold;
+  margin: 20px;
 }
 
 .comment-content {
+  color: black;
   font-family: 'Varela Round', sans-serif;
   font-size: 14px;
+  margin: 20px;
+}
+
+.delete-comment {
+  position: relative;
+  margin: 20px;
 }

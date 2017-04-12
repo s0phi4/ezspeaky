@@ -1,22 +1,27 @@
-<h1 class='titles'>{{model.title}}</h1>
+<h1 class='title-therapy'>{{model.title}}</h1>
 <div class='content-therapy'>
-<p class='definition-therapy'>{{model.content}}</p>
+  <p class='definition-therapy'>{{model.content}}</p>
 
-<ul class='video-therapy'>
-  {{#each model.videos as |video|}}
-    <li>
-      {{video.name}}<br>
-      <a href= {{video.url}}>{{video.url}}</a>
-    </li>
-  {{/each}}
-</ul>
-<ul>
-  {{#each model.comments as |comment|}}
-    <li>  <h3 class='comment-title'>{{comment.title}}</h3>
-      <p class='comment-content'>{{comment.content}}</p></li>
-  {{/each}}
-</ul>
+  <ul class='video-therapy'>
+    {{#each model.videos as |video|}}
+      <li>
+        {{video.name}}<br>
+        <a href= {{video.url}}>{{video.url}}</a>
+      </li>
+    {{/each}}
+  </ul>
+  {{!-- <ul> --}}
+    {{#each model.comments as |comment|}}
+    <div class='comment-box'>
+      {{!-- <li> --}}
+        <h3 class='comment-title'>{{comment.title}}</h3>
+        <p class='comment-content'>{{comment.content}}</p>
+      {{!-- </li> --}}
+      <button class="btn btn-danger delete-comment" {{action 'delete'}}>Delete</button>
+    </div>
+    {{/each}}
+  {{!-- </ul> --}}
 
-{{#link-to 'therapies.therapy.comment-new' model}}<button class="btn btn-info">Add Comment</button>{{/link-to}}
+  {{#link-to 'therapies.therapy.comment-new' model}}<button class="btn btn-info">Add Comment</button>{{/link-to}}
 </div>
 {{outlet}}

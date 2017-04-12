@@ -1,11 +1,9 @@
 @import 'bootstrap';
 @import 'bootstrap/theme';
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
-
+@import url( 'https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url( 'https://fonts.googleapis.com/css?family=Varela+Round');
 @import 'therapies';
 @import 'therapy-details';
-
 
 body {
   background-image: url('/assets/images/ezspeaky_family.jpg');
@@ -42,5 +40,3 @@ body {
   font-family: 'Fredoka One', cursive;
   font-size: 35px;
 }
-
-//fbe270

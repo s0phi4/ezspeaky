@@ -9,5 +9,8 @@ export default Ember.Route.extend({
       comment.save()
       .then(() =>this.transitionTo('therapies.therapy.comment-new'));
     },
+    // delete () {
+    //   this.sendAction('delete', this.get('comment'));
+    // },
   }
 });
