@@ -2,12 +2,12 @@
 @import 'bootstrap/theme';
 @import url( 'https://fonts.googleapis.com/css?family=Fredoka+One');
 @import url( 'https://fonts.googleapis.com/css?family=Varela+Round');
-@import url('https://raw.githubusercontent.com/yenpraja610/ezspeaky/master/public/assets/images/ezspeaky_family.jpg');
+// @import url('https://raw.githubusercontent.com/yenpraja610/ezspeaky/master/public/assets/images/ezspeaky_family.jpg');
 @import 'therapies';
 @import 'therapy-details';
 
 body {
-  background-image: url('https://raw.githubusercontent.com/yenpraja610/ezspeaky/master/public/assets/images/ezspeaky_family.jpg');
+  background-image: url('http://www.clipartkid.com/images/512/high-resolution-cartoon-illustraion-of-family-love-1600-1200-no-5-SwXQKB-clipart.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -18,7 +18,7 @@ body {
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
   .img {
-    background-image: url('https://raw.githubusercontent.com/yenpraja610/ezspeaky/master/public/assets/images/ezspeaky_family.jpg');
+    background-image: url('http://www.clipartkid.com/images/512/high-resolution-cartoon-illustraion-of-family-love-1600-1200-no-5-SwXQKB-clipart.jpg');
   }
 }
 
