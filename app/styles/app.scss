@@ -6,9 +6,19 @@
 @import 'therapy-details';
 
 body {
-  background-image: url('http://www.clipartkid.com/images/512/high-resolution-cartoon-illustraion-of-family-love-1600-1200-no-5-SwXQKB-clipart.jpg');
+  background-image: url('https://raw.githubusercontent.com/yenpraja610/ezspeaky/master/public/assets/images/ezspeaky_family.jpg');
   background-repeat: no-repeat;
-  background-size: 1438px 850px;
+  background-size: cover;
+  height: 850px;
+}
+@media
+  (min-width: 375px) and (max-width: 400px),
+  (min-width: 468px),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .img {
+    background-image: url('https://raw.githubusercontent.com/yenpraja610/ezspeaky/master/public/assets/images/ezspeaky_family.jpg');
+  }
 }
 
 .first-view {
