@@ -6,7 +6,7 @@
 @import 'therapy-details';
 
 body {
-  background-image: url('/assets/images/ezspeaky_family.jpg');
+  background-image: url('https://raw.githubusercontent.com/yenpraja610/ezspeaky/master/public/assets/images/ezspeaky_family.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -17,7 +17,7 @@ body {
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi) {
   .img {
-    background-image: url('/assets/images/ezspeaky_family.jpg');
+    background-image: url('https://raw.githubusercontent.com/yenpraja610/ezspeaky/master/public/assets/images/ezspeaky_family.jpg');
   }
 }
 
