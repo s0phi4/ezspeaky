@@ -12,7 +12,7 @@ module.exports = function(defaults) {
   });
 
   app.import('bower_components/bootstrap-sass/assets/javascripts/bootstrap.js');
-  app.import('public/assets/images/ezspeaky_family.jpg', { destDirt:'public/assets/images' });
+  app.import('public/images/ezspeaky_family.jpg', { destDirt:'public/images' });
 
   return app.toTree();
 };
